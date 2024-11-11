@@ -17,3 +17,7 @@ Expression * Variable::diff() {
 void Variable::print() {
     std::cout << this->name;
 }
+
+void Variable::type() {
+    std::cout << "Variable" << "\n";
+}

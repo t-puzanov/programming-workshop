@@ -10,6 +10,7 @@ public:
     Variable(char name);
     Expression * diff();
     void print();
+    void type();
 };
 
 #endif
