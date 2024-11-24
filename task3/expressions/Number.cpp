@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdio.h>
 
 #include "./Number.h"
 #include "./Expression.h"
@@ -14,4 +15,5 @@ Expression * Number::diff() {
 
 void Number::print() {
     std::cout << this->value;
+    // printf("%d", this->value);
 }
